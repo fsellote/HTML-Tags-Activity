@@ -8,8 +8,11 @@
     <title>Web Systems and Information</title>
     <style>
         /* CSS for box model demonstration */
-        body{
-            background-color:burlywood;
+        body {
+            background-color: burlywood;
+            text-align: center;
+            padding: 20px;
+            font-family: "Century Gothic", sans-serif;
         }
         .box {
             width: 200px;
@@ -17,14 +20,32 @@
             background-color: rgb(194, 130, 90);
             border: 2px solid rgb(0, 0, 0);
             padding: 20px;
-            margin: 20px;
+            margin: 20px auto;
+        }
+        header, section, footer, article, form, nav {
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        table {
+            margin: 20px auto;
         }
     </style>
 </head>
 <body>
     <!-- Document Structure -->
     <header>
-        <h1>Main Heading</h1>
+        <p> Web Systems and Information </p>
+        <p><em>---------- DOCUMENT STRUCTURE CATEGORY ---------</em></p>
+        <h1><span>&#10048;</span>  SELLOTE, FRANCEN P.  <span>&#10048;</span></h1>
         <nav>
             <ul>
                 <li><a href="#section1">Section 1</a></li>
@@ -34,6 +55,9 @@
     </header>
     
     <!-- TEXT FORMATTING -->
+    <p><em><span>&#10048;</span>---------- TEXT FORMATTING CATEGORY ---------<span>&#10048;</span></em></p>
+    <h1><span>&#10048;</span></h1>
+    
     <section id="section1">
         <h2>Section 1</h2>
         <p><em>This is emphasized text.</em></p>
@@ -41,6 +65,7 @@
     </section>
     
     <!-- LISTS -->
+    <p><em>---------- LISTS CATEGORY ---------</em></p>
     <section id="section2">
         <h2>Section 2</h2>
         <ul>
@@ -57,7 +82,7 @@
     <a href="https://www.example.com">This is a link</a>
     
     <!-- IMAGES -->
-    <img src="image.jpg" alt="Description of the image">
+    <img src="images/img1.jpg" alt="Me">
     
     <!-- TABLES -->
     <table>
@@ -79,9 +104,9 @@
     <!-- FORMS -->
     <form action="/submit" method="post">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="SELLOTE"><br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" id="email" name=" sellote.francen519@gmail.com"><br>
         <input type="submit" value="Submit">
     </form>
     
